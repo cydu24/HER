@@ -238,7 +238,7 @@ python run_coser.py \
 
 ```bibtex
 @article{her2025,
-  title={HER: Aligning LLM Role-playing with Human-like Reasoning and Reinforcement Learning},
+  title={HER: Human-like Reasoning and Reinforcement Learning for LLM Role-playing},
   author={Chengyu Du, Xintao Wang, Aili Chen, Weiyuan Li, Rui Xu, Junteng Liu, Zishan Huang, Rong Tian, Zijun Sun, Yuhao Li, Liheng Feng, Deming Ding, Pengyu Zhao, Yanghua Xiao},
   journal={arXiv preprint arXiv:2026.xxxxx},
   year={2026}
