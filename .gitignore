@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+upload_to_github.sh
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data and outputs
+*.jsonl
+*.json
+*.parquet
+*.log
+*.txt.gz
+results/
+output/
+data/
+checkpoints/
+*.ckpt
+*.pth
+*.safetensors
+
+# Temporary files
+tmp/
+temp/
+*.tmp

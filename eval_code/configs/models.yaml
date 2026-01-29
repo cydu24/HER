@@ -1,0 +1,77 @@
+# Model Configuration File
+# 
+# This file defines models for evaluation. You can configure:
+# - vLLM models (local deployment)
+# - OpenAI API models
+# - Anthropic Claude models
+# - Any OpenAI-compatible endpoint
+
+judge:
+  # Default judge model for all benchmarks
+  default: qwen-judge
+  
+  # Benchmark-specific judge configurations
+  coser:
+    judge: qwen-judge
+    nsp: qwen-judge
+    env: qwen-judge
+
+models:
+  # ============ Example vLLM Models ============
+  # Local vLLM deployment
+  my-roleplay-model:
+    type: vllm
+    base_url: http://localhost:8000
+    chat_template: her  # Options: her, coser, api
+    # model_name will be auto-detected from server
+  
+  # vLLM with custom model name
+  coser-70b:
+    type: vllm
+    base_url: http://your-server:8000
+    model_name: CoSER-70B-v2
+    chat_template: coser
+  
+  # vLLM with load balancing (multiple URLs)
+  distributed-model:
+    type: vllm
+    base_urls:
+      - http://server1:8000
+      - http://server2:8000
+    chat_template: her
+
+  # ============ Example Judge Model ============
+  qwen-judge:
+    type: vllm
+    base_url: http://judge-server:8000
+    chat_template: api
+
+  # ============ OpenAI API Models ============
+  gpt-4:
+    type: openai
+    model_name: gpt-4
+    # api_key: Set via OPENAI_API_KEY environment variable
+    # base_url: https://api.openai.com/v1  (default)
+  
+  gpt-4-turbo:
+    type: openai
+    model_name: gpt-4-turbo
+  
+  # ============ Anthropic Claude Models ============
+  claude-3-opus:
+    type: anthropic
+    model_name: claude-3-opus-20240229
+    # api_key: Set via ANTHROPIC_API_KEY environment variable
+  
+  claude-3-sonnet:
+    type: anthropic
+    model_name: claude-3-sonnet-20240229
+
+  # ============ OpenAI-Compatible Endpoints ============
+  # For vLLM, LocalAI, Ollama, etc.
+  local-llama:
+    type: openai
+    model_name: llama-3.1-70b
+    base_url: http://localhost:8000/v1
+    # No api_key needed for local models
+
