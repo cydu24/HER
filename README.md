@@ -251,7 +251,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Acknowledgments
 
-- [CoSER](https://github.com/xxx/CoSER) for the evaluation benchmark
+- [CoSER](https://github.com/Neph0s/CoSER/tree/main) for the evaluation benchmark
 - [MiniMax](https://www.minimax.io/news/a-deep-dive-into-the-minimax-m2-her-2) for the evaluation benchmark
 
 ---
