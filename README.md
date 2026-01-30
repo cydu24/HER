@@ -237,13 +237,6 @@ python run_coser.py \
 
 
 
-## 🤝 Acknowledgments
-
-- [CoSER](https://github.com/xxx/CoSER) for the evaluation benchmark
-- [MiniMax](https://www.minimax.io/news/a-deep-dive-into-the-minimax-m2-her-2) for the evaluation benchmark
-
----
-
 ## Contact
 
 For questions or feedback, please open an issue in the repository.
@@ -254,7 +247,7 @@ For questions or feedback, please open an issue in the repository.
 @article{her2025,
   title={HER: Human-like Reasoning and Reinforcement Learning for LLM Role-playing},
   author={Chengyu Du, Xintao Wang, Aili Chen, Weiyuan Li, Rui Xu, Junteng Liu, Zishan Huang, Rong Tian, Zijun Sun, Yuhao Li, Liheng Feng, Deming Ding, Pengyu Zhao, Yanghua Xiao},
-  journal={arXiv preprint arXiv:2026.xxxxx},
+  journal={arXiv preprint arXiv:2026.21459},
   year={2026}
 }
 ```
@@ -265,14 +258,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Acknowledgments
 
-- [CoSER](https://github.com/xxx/CoSER) for the evaluation benchmark
+- [CoSER](https://github.com/Neph0s/CoSER) for the evaluation benchmark
 - [MiniMax](https://www.minimax.io/news/a-deep-dive-into-the-minimax-m2-her-2) for the evaluation benchmark
 
 ---
 
 <div align="center">
 
-**[Paper](https://arxiv.org/abs/2025.xxxxx)** | **[Model](https://huggingface.co/ChengyuDu0123/HER-32B-ACL)** | **[Demo](chat_demo/README.md)** | **[Data](https://huggingface.co/datasets/ChengyuDu0123/HER-ACL-Dataset)**
+**[Paper](https://arxiv.org/abs/2025.21459)** | **[Model](https://huggingface.co/ChengyuDu0123/HER-32B)** | **[Data](https://huggingface.co/datasets/ChengyuDu0123/HER-Dataset)**
 
 Made with ❤️ for better AI role-playing
 
