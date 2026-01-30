@@ -1,14 +1,15 @@
 <div align="center">
 
+
 # 🎭 HER: Hierarchical Emotion Reasoning
 
 ### HER: Human-like Reasoning and Reinforcement Learning for LLM Role-playing
 
 <p align="center">
-  <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv" alt="Paper"></a>
-  <a href="https://huggingface.co/datasets/ChengyuDu0123/HER-ACL-Dataset"><img src="https://img.shields.io/badge/🤗%20Dataset-HER--Dataset-yellow" alt="Dataset"></a>
-  <a href="https://huggingface.co/ChengyuDu0123/HER-32B-ACL"><img src="https://img.shields.io/badge/🤗%20Model-HER--RL-blue" alt="HER-RL"></a>
-  <a href="https://huggingface.co/ChengyuDu0123/HER-RM-32B-ACL"><img src="https://img.shields.io/badge/🤗%20Model-HER--RM-green" alt="HER-RM"></a>
+  <a href="https://arxiv.org/abs/2601.21459"><img src="https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv" alt="Paper"></a>
+  <a href="https://huggingface.co/datasets/ChengyuDu0123/HER-Dataset"><img src="https://img.shields.io/badge/🤗%20Dataset-HER--Dataset-yellow" alt="Dataset"></a>
+  <a href="https://huggingface.co/ChengyuDu0123/HER-32B"><img src="https://img.shields.io/badge/🤗%20Model-HER--RL-blue" alt="HER-RL"></a>
+  <a href="https://huggingface.co/ChengyuDu0123/HER-RM-32B"><img src="https://img.shields.io/badge/🤗%20Model-HER--RM-green" alt="HER-RM"></a>
   <a href="https://github.com/cydu24/HER"><img src="https://img.shields.io/badge/GitHub-Code-black?logo=github" alt="GitHub"></a>
 </p>
 <img src="figure2github.png" alt="HER Framework" width="800">
@@ -234,6 +235,19 @@ python run_coser.py \
 | [Evaluation Guide](eval_code/README.md) | CoSER benchmark details |
 | [Chat Demo](chat_demo/README.md) | Interactive demo guide |
 
+
+
+## 🤝 Acknowledgments
+
+- [CoSER](https://github.com/xxx/CoSER) for the evaluation benchmark
+- [MiniMax](https://www.minimax.io/news/a-deep-dive-into-the-minimax-m2-her-2) for the evaluation benchmark
+
+---
+
+## Contact
+
+For questions or feedback, please open an issue in the repository.
+
 ## 🎓 Citation
 
 ```bibtex
@@ -251,7 +265,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Acknowledgments
 
-- [CoSER](https://github.com/Neph0s/CoSER/tree/main) for the evaluation benchmark
+- [CoSER](https://github.com/xxx/CoSER) for the evaluation benchmark
 - [MiniMax](https://www.minimax.io/news/a-deep-dive-into-the-minimax-m2-her-2) for the evaluation benchmark
 
 ---
@@ -263,3 +277,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Made with ❤️ for better AI role-playing
 
 </div>
+
